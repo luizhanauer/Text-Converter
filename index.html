@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Input</label>
+	<textarea id="input"></textarea>
+	<button onclick="toUpper()">Run</button>
+	<label>UpperCase</label>
+	<textarea id="upper"></textarea>
+	<button onclick="toLower()">Run</button>
+	<label>LowerCase</label>
+	<textarea id="lower"></textarea>
+
+	<script>
+		function toUpper() {
+			let input = document.getElementById('input').value;
+			document.getElementById('upper').value = input.toUpperCase();
+		}
+
+		function toLower() {
+			let input = document.getElementById('input').value;
+			document.getElementById('lower').value = input.toLowerCase();
+		}
+		
+	</script>
+</body>
+</html>
