@@ -18,16 +18,18 @@
 			<h3 class="text-center">Convert to:</h3>
 			<hr>
 			<div class="form-group">
-				<textarea class="form-control" id="upper" rows="6"></textarea>
-				<button class="btn btn-dark mt-2" onclick="toUpper()">Uppercase</button>
+				<button class="btn btn-dark mt-2 mb-3" onclick="toUpper()">Uppercase</button>
+				<div id="upper" rows="6">
+				</div>
 			</div>
 			<hr>
 			<div class="form-group">
-				<textarea class="form-control" id="lower" rows="6"></textarea>
-				<button class="btn btn-dark mt-2" onclick="toLower()">Lowercase</button>
+				<button class="btn btn-dark mt-2 mb-3" onclick="toLower()">Lowercase</button>
+				<div id="lower" rows="6">
+				</div>
 			</div>
+			<hr>
 		</div>
-		<div class="col-6"></div>
 	</div>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -35,12 +37,12 @@
 	<script>
 		function toUpper() {
 			let input = document.getElementById('input').value;
-			document.getElementById('upper').value = input.toUpperCase();
+			document.getElementById('upper').innerHTML = '<p>'+input.toUpperCase()+'</p>';
 		}
 
 		function toLower() {
 			let input = document.getElementById('input').value;
-			document.getElementById('lower').value = input.toLowerCase();
+			document.getElementById('lower').innerHTML = '<p>'+input.toLowerCase()+'</p>';
 		}
 		
 	</script>
