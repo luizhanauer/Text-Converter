@@ -12,7 +12,7 @@ Funcionalidades
 Como utilizar
 -------------
 
-1.  Acesse a página do Conversor de Texto em [https://exemplo.com/conversor-de-texto](https://exemplo.com/conversor-de-texto).
+1.  Acesse a página do Conversor de Texto em [https://luizhanauer.github.io/Text-Converter](https://luizhanauer.github.io/Text-Converter).
 2.  Insira o texto que deseja converter na caixa de texto "Entrada".
 3.  O texto convertido em maiúsculas será exibido na caixa de texto "Maiúsculo".
 4.  O texto convertido em minúsculas será exibido na caixa de texto "Minúsculo".
